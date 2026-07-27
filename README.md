@@ -48,7 +48,7 @@ The optimizer evaluates candidate recipes against strict hardware and mask-integ
 etch-ai-optimization/
 ├── README.md
 ├── docs/
-│   └── LAB_EXECUTION_GUIDE.md            # Your Phase 1–4 step-by-step lab instructions
+│   └── LAB_EXECUTION_GUIDE.md            # Phase 1–4 step-by-step lab instructions
 ├── data/
 │   ├── Reference.md
 │   ├── historical_baseline.csv     # Literature prior dataset (27 records)
