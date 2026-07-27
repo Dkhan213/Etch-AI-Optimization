@@ -9,6 +9,7 @@
 
 The primary objective is to maximize vertical silicon etch rates while preserving the protective photoresist mask and maintaining anisotropic, high-aspect-ratio trench profiles with minimal physical wafer waste.
 
+![Optimization Progress](docs/convergence_plot.png)
 ---
 
 ## Hardware & Metrology Stack
