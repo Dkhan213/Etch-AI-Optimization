@@ -1,4 +1,4 @@
-rf_power,sf6_flow,o2_flow,etch_rate,source
+rf_power,sf6_flow,o2_flow,etch_rate,source,notes
 120.0,40.0,40.0,1300.0,Gomez2004_Table3
 20.0,40.0,40.0,850.0,Gomez2004_Fig5a
 40.0,40.0,40.0,1100.0,Gomez2004_Fig5a
@@ -7,7 +7,6 @@ rf_power,sf6_flow,o2_flow,etch_rate,source
 20.0,30.0,50.0,850.0,Gomez2004_Fig7a
 20.0,35.5,44.5,1500.0,Gomez2004_Fig7a
 20.0,44.0,36.0,1750.0,Gomez2004_Fig7a
-rf_power,sf6_flow,o2_flow,etch_rate,source,notes
 45.0,45.0,5.0,2600.0,d'Agostino (1981),Opt: Converted 10% O2 to 5 SCCM based on 50 SCCM total flow; Converted 26000 A/min to 2600 nm/min.
 45.0,40.0,10.0,3000.0,d'Agostino (1981),Opt: Converted 20% O2 to 10 SCCM based on 50 SCCM total flow; Converted 30000 A/min to 3000 nm/min.
 45.0,35.0,15.0,2200.0,d'Agostino (1981),Opt: Converted 30% O2 to 15 SCCM based on 50 SCCM total flow; Converted 22000 A/min to 2200 nm/min.
