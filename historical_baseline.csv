@@ -1,9 +1,12 @@
-rf_power,sf6_flow,o2_flow,etch_rate,source
-120.0,40.0,40.0,1300.0,Gomez2004_Table3
-20.0,40.0,40.0,850.0,Gomez2004_Fig5a
-40.0,40.0,40.0,1100.0,Gomez2004_Fig5a
-80.0,40.0,40.0,1400.0,Gomez2004_Fig5a
-160.0,40.0,40.0,1700.0,Gomez2004_Fig5a
-20.0,30.0,50.0,850.0,Gomez2004_Fig7a
-20.0,35.5,44.5,1500.0,Gomez2004_Fig7a
-20.0,44.0,36.0,1750.0,Gomez2004_Fig7a
+# Source: Gomez et al., J. Vac. Sci. Technol. A 22 (2004)
+# DOI: 10.1116/1.1710493
+# Note: Data points extracted from Table III, Figure 5a, and Figure 7a
+rf_power,sf6_flow,o2_flow,etch_rate
+120.0,40.0,40.0,1300.0
+20.0,40.0,40.0,850.0
+40.0,40.0,40.0,1100.0
+80.0,40.0,40.0,1400.0
+160.0,40.0,40.0,1700.0
+20.0,30.0,50.0,850.0
+20.0,35.5,44.5,1500.0
+20.0,44.0,36.0,1750.0
