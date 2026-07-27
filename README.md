@@ -50,7 +50,7 @@ etch-ai-optimization/
 ├── docs/
 │   └── LAB_EXECUTION_GUIDE.md            # Your Phase 1–4 step-by-step lab instructions
 ├── data/
-│   ├── DATASET_SUMMARY.md          # Complete breakdown of Gomez, d'Agostino, & Kim literature data
+│   ├── Reference.md
 │   ├── historical_baseline.csv     # Literature prior dataset (27 records)
 │   └── nanofab_experiments.csv     # Local cleanroom run logs
 ├── literature/
