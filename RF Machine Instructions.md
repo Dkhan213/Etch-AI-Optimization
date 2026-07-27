@@ -29,7 +29,7 @@ Before you hit run, do a quick visual sweep of the screen to ensure the baseline
 
 Verify Time & Interlocks (Top Left):
 
-STEP TIME: 00 02 00 (Exactly 120 seconds).
+STEP TIME: 00 01 00 (Exactly 60 seconds).
 
 LOG INTERVAL: 00 00 05.
 
@@ -51,7 +51,7 @@ C4F8, CHF3, BCl3, CL2: All must be 0.0.
 
 Verify Generators (Bottom):
 
-ICP GENERATOR Forward Power: 800 (or your agreed-upon 500W-800W lab baseline).
+ICP GENERATOR Forward Power: 800.
 
 RF AUTOMATCH & ICP AUTOMATCH: Both set to AUTO (yellow light on).
 
