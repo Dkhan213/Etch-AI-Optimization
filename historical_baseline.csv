@@ -1,14 +1,19 @@
-rf_power,sf6_flow,o2_flow,etch_rate,source,notes
-120.0,40.0,40.0,1300.0,Gomez2004_Table3,
-20.0,40.0,40.0,850.0,Gomez2004_Fig5a,
-40.0,40.0,40.0,1100.0,Gomez2004_Fig5a,
-80.0,40.0,40.0,1400.0,Gomez2004_Fig5a,
-160.0,40.0,40.0,1700.0,Gomez2004_Fig5a,
-20.0,30.0,50.0,850.0,Gomez2004_Fig7a,
-20.0,35.5,44.5,1500.0,Gomez2004_Fig7a,
-20.0,44.0,36.0,1750.0,Gomez2004_Fig7a,
-45.0,45.0,5.0,2600.0,d'Agostino (1981),Opt: Converted 10% O2 to 5 SCCM based on 50 SCCM total flow; Converted 26000 A/min to 2600 nm/min.
-45.0,40.0,10.0,3000.0,d'Agostino (1981),Opt: Converted 20% O2 to 10 SCCM based on 50 SCCM total flow; Converted 30000 A/min to 3000 nm/min.
-45.0,35.0,15.0,2200.0,d'Agostino (1981),Opt: Converted 30% O2 to 15 SCCM based on 50 SCCM total flow; Converted 22000 A/min to 2200 nm/min.
-45.0,30.0,20.0,1000.0,d'Agostino (1981),Opt: Converted 40% O2 to 20 SCCM based on 50 SCCM total flow; Converted 10000 A/min to 1000 nm/min.
-45.0,20.0,30.0,200.0,d'Agostino (1981),Opt: Converted 60% O2 to 30 SCCM based on 50 SCCM total flow; Converted 2000 A/min to 200 nm/min.
+rf_power,chamber_pressure,sf6_flow,o2_flow,etch_rate,source,notes
+20.0,10.0,40.0,40.0,800.0,Gomez (2004) Fig 3a,Opt: Baseline RF -20V.
+20.0,25.0,40.0,40.0,850.0,Gomez (2004) Fig 3a,Opt: Baseline RF -20V. Peak etch rate.
+20.0,40.0,40.0,40.0,500.0,Gomez (2004) Fig 3a,Opt: Baseline RF -20V.
+20.0,75.0,40.0,40.0,250.0,Gomez (2004) Fig 3a,Opt: Baseline RF -20V.
+40.0,10.0,40.0,40.0,900.0,Gomez (2004) Fig 3a,Opt: RF -40V.
+40.0,25.0,40.0,40.0,1100.0,Gomez (2004) Fig 3a,Opt: RF -40V.
+40.0,40.0,40.0,40.0,700.0,Gomez (2004) Fig 3a,Opt: RF -40V.
+80.0,25.0,40.0,40.0,1400.0,Gomez (2004) Fig 5a,Opt: Extracted from RF sweep.
+120.0,25.0,40.0,40.0,1700.0,Gomez (2004) Fig 5a,Opt: Extracted from RF sweep.
+160.0,25.0,40.0,40.0,1700.0,Gomez (2004) Fig 5a,Opt: Extracted from RF sweep.
+20.0,25.0,30.0,50.0,850.0,Gomez (2004) Fig 7a,Opt: Ratio 0.6.
+20.0,25.0,35.0,45.0,1500.0,Gomez (2004) Fig 7a,Opt: Ratio 0.78 (35sccm SF6 / 45sccm O2).
+20.0,25.0,40.0,40.0,1750.0,Gomez (2004) Fig 7a,Opt: Ratio 1.0 (40sccm SF6 / 40sccm O2).
+45.0,1000.0,45.0,5.0,2600.0,d'Agostino (1981),Opt: 1 Torr pressure; 10% O2.
+45.0,1000.0,40.0,10.0,3000.0,d'Agostino (1981),Opt: 1 Torr pressure; 20% O2.
+45.0,1000.0,35.0,15.0,2200.0,d'Agostino (1981),Opt: 1 Torr pressure; 30% O2.
+45.0,1000.0,30.0,20.0,1000.0,d'Agostino (1981),Opt: 1 Torr pressure; 40% O2.
+45.0,1000.0,20.0,30.0,200.0,d'Agostino (1981),Opt: 1 Torr pressure; 60% O2.
