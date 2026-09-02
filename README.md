@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 <p align="center">
-  <img src="images/cleanroom.jpg" width="700"><br>
+  <img src="images/cleanroom.jpeg" width="700"><br>
   <em>ISO Class 10 cleanroom, UH Nanofabrication Facility.</em>
 </p>
 
@@ -24,7 +24,7 @@ The problem: a modern RIE tool exposes dozens of interacting process parameters,
 * **Metrology:** Asylum MFP-3D Atomic Force Microscope (AFM)
 
 <p align="center">
-  <img src="images/oxford-system-100.jpg" width="600"><br>
+  <img src="images/oxford-system-100.jpeg" width="600"><br>
   <em>Oxford System 100 ICP-RIE used for all etch runs.</em>
 </p>
 
@@ -41,8 +41,8 @@ Mapping plasma chemistry manually requires extensive wafer runs and cleanroom to
 3. **Active Learning (Local Hardware Optimization):** Once 3 physical cleanroom runs are logged, the pipeline trains exclusively on local AFM depth measurements from the Oxford System 100. A Random Forest surrogate model in `scikit-optimize` builds a predictive map of the chamber; candidate recipes are then generated within the cleanroom safety window and scored against that surrogate, with the best-predicted safe recipe selected for the next physical run. Each completed run feeds back into the model, so the system self-corrects as the tool drifts.
 
 <p align="center">
-  <img src="images/patterned-wafer.jpg" width="600"><br>
-  <em>Silicon wafer following photolithographic patterning and plasma etch.</em>
+  <img src="images/patterned-wafer.jpeg" width="600"><br>
+  <em>Test wafer with die array patterned for parameter sweeps; each cell corresponds to a distinct SF6/O2 flow combination.</em>
 </p>
 
 ---
