@@ -4,6 +4,11 @@
 ![scikit-optimize](https://img.shields.io/badge/scikit--optimize-0.9.0-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
+<p align="center">
+  <img src="images/cleanroom.jpg" width="700"><br>
+  <em>ISO Class 10 cleanroom, UH Nanofabrication Facility.</em>
+</p>
+
 ## Overview
 **Etch-AI** is an active machine learning pipeline designed to optimize Reactive Ion Etching (RIE) process parameters for silicon microfabrication. Developed by Team Etch-a-Sketch during an R&D engineering internship as part of the SPARK-UP undergraduate research program at the University of Houston, this project applies Bayesian Optimization to navigate the non-linear reaction dynamics of SF6 / O2 / Ar plasmas.
 
@@ -18,6 +23,11 @@ The problem: a modern RIE tool exposes dozens of interacting process parameters,
 * **Lithography:** ABM Mask Aligner (1,200 nm S1813 Photoresist)
 * **Metrology:** Asylum MFP-3D Atomic Force Microscope (AFM)
 
+<p align="center">
+  <img src="images/oxford-system-100.jpg" width="600"><br>
+  <em>Oxford System 100 ICP-RIE used for all etch runs.</em>
+</p>
+
 ---
 
 ## Architecture & Machine Learning Strategy
@@ -29,6 +39,11 @@ Mapping plasma chemistry manually requires extensive wafer runs and cleanroom to
 2. **Design of Experiments (Local Calibration):** Historical data alone is insufficient: every tool behaves differently, and 100 W on a 2009-era chamber is not 100 W on ours. Rather than sweeping the parameter space exhaustively, a small structured set of runs characterizes the local machine, the extremes (corners) of the parameter space, plus replicated center points to capture baseline behavior and run-to-run variance. This maps the response surface in a handful of runs instead of hundreds.
    
 3. **Active Learning (Local Hardware Optimization):** Once 3 physical cleanroom runs are logged, the pipeline trains exclusively on local AFM depth measurements from the Oxford System 100. A Random Forest surrogate model in `scikit-optimize` builds a predictive map of the chamber; candidate recipes are then generated within the cleanroom safety window and scored against that surrogate, with the best-predicted safe recipe selected for the next physical run. Each completed run feeds back into the model, so the system self-corrects as the tool drifts.
+
+<p align="center">
+  <img src="images/patterned-wafer.jpg" width="600"><br>
+  <em>Silicon wafer following photolithographic patterning and plasma etch.</em>
+</p>
 
 ---
 
