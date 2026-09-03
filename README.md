@@ -4,11 +4,6 @@
 ![scikit-optimize](https://img.shields.io/badge/scikit--optimize-0.9.0-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-<p align="center">
-  <img src="images/cleanroom.jpeg" width="700"><br>
-  <em>ISO Class 10 cleanroom, UH Nanofabrication Facility.</em>
-</p>
-
 ## Overview
 **Etch-AI** is an active machine learning pipeline designed to optimize Reactive Ion Etching (RIE) process parameters for silicon microfabrication. Developed by Team Etch-a-Sketch during an R&D engineering internship as part of the SPARK-UP undergraduate research program at the University of Houston, this project applies Bayesian Optimization to navigate the non-linear reaction dynamics of SF6 / O2 / Ar plasmas.
 
